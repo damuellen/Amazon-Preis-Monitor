@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65CAEFD81C493AC90047ADBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CAEFD71C493AC90047ADBE /* AppDelegate.swift */; };
+		65CAEFDA1C493AC90047ADBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CAEFD91C493AC90047ADBE /* ViewController.swift */; };
+		65CAEFDC1C493AC90047ADBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CAEFDB1C493AC90047ADBE /* Assets.xcassets */; };
+		65CAEFDF1C493AC90047ADBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CAEFDD1C493AC90047ADBE /* Main.storyboard */; };
+		65CAEFEA1C493AC90047ADBE /* Amazon_Preis_MonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CAEFE91C493AC90047ADBE /* Amazon_Preis_MonitorTests.swift */; };
+		65CAEFF51C493AC90047ADBE /* Amazon_Preis_MonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CAEFF41C493AC90047ADBE /* Amazon_Preis_MonitorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65CAEFE61C493AC90047ADBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65CAEFCC1C493AC90047ADBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CAEFD31C493AC90047ADBE;
+			remoteInfo = "Amazon Preis Monitor";
+		};
+		65CAEFF11C493AC90047ADBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65CAEFCC1C493AC90047ADBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CAEFD31C493AC90047ADBE;
+			remoteInfo = "Amazon Preis Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65CAEFD41C493AC90047ADBE /* Amazon Preis Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amazon Preis Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CAEFD71C493AC90047ADBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65CAEFD91C493AC90047ADBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65CAEFDB1C493AC90047ADBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65CAEFDE1C493AC90047ADBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65CAEFE01C493AC90047ADBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CAEFE51C493AC90047ADBE /* Amazon Preis MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amazon Preis MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CAEFE91C493AC90047ADBE /* Amazon_Preis_MonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazon_Preis_MonitorTests.swift; sourceTree = "<group>"; };
+		65CAEFEB1C493AC90047ADBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CAEFF01C493AC90047ADBE /* Amazon Preis MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amazon Preis MonitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CAEFF41C493AC90047ADBE /* Amazon_Preis_MonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazon_Preis_MonitorUITests.swift; sourceTree = "<group>"; };
+		65CAEFF61C493AC90047ADBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65CAEFD11C493AC90047ADBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CAEFE21C493AC90047ADBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CAEFED1C493AC90047ADBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65CAEFCB1C493AC90047ADBE = {
+			isa = PBXGroup;
+			children = (
+				65CAEFD61C493AC90047ADBE /* Amazon Preis Monitor */,
+				65CAEFE81C493AC90047ADBE /* Amazon Preis MonitorTests */,
+				65CAEFF31C493AC90047ADBE /* Amazon Preis MonitorUITests */,
+				65CAEFD51C493AC90047ADBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65CAEFD51C493AC90047ADBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65CAEFD41C493AC90047ADBE /* Amazon Preis Monitor.app */,
+				65CAEFE51C493AC90047ADBE /* Amazon Preis MonitorTests.xctest */,
+				65CAEFF01C493AC90047ADBE /* Amazon Preis MonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65CAEFD61C493AC90047ADBE /* Amazon Preis Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				65CAEFD71C493AC90047ADBE /* AppDelegate.swift */,
+				65CAEFD91C493AC90047ADBE /* ViewController.swift */,
+				65CAEFDB1C493AC90047ADBE /* Assets.xcassets */,
+				65CAEFDD1C493AC90047ADBE /* Main.storyboard */,
+				65CAEFE01C493AC90047ADBE /* Info.plist */,
+			);
+			path = "Amazon Preis Monitor";
+			sourceTree = "<group>";
+		};
+		65CAEFE81C493AC90047ADBE /* Amazon Preis MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				65CAEFE91C493AC90047ADBE /* Amazon_Preis_MonitorTests.swift */,
+				65CAEFEB1C493AC90047ADBE /* Info.plist */,
+			);
+			path = "Amazon Preis MonitorTests";
+			sourceTree = "<group>";
+		};
+		65CAEFF31C493AC90047ADBE /* Amazon Preis MonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65CAEFF41C493AC90047ADBE /* Amazon_Preis_MonitorUITests.swift */,
+				65CAEFF61C493AC90047ADBE /* Info.plist */,
+			);
+			path = "Amazon Preis MonitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65CAEFD31C493AC90047ADBE /* Amazon Preis Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CAEFF91C493AC90047ADBE /* Build configuration list for PBXNativeTarget "Amazon Preis Monitor" */;
+			buildPhases = (
+				65CAEFD01C493AC90047ADBE /* Sources */,
+				65CAEFD11C493AC90047ADBE /* Frameworks */,
+				65CAEFD21C493AC90047ADBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amazon Preis Monitor";
+			productName = "Amazon Preis Monitor";
+			productReference = 65CAEFD41C493AC90047ADBE /* Amazon Preis Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65CAEFE41C493AC90047ADBE /* Amazon Preis MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CAEFFC1C493AC90047ADBE /* Build configuration list for PBXNativeTarget "Amazon Preis MonitorTests" */;
+			buildPhases = (
+				65CAEFE11C493AC90047ADBE /* Sources */,
+				65CAEFE21C493AC90047ADBE /* Frameworks */,
+				65CAEFE31C493AC90047ADBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CAEFE71C493AC90047ADBE /* PBXTargetDependency */,
+			);
+			name = "Amazon Preis MonitorTests";
+			productName = "Amazon Preis MonitorTests";
+			productReference = 65CAEFE51C493AC90047ADBE /* Amazon Preis MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65CAEFEF1C493AC90047ADBE /* Amazon Preis MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CAEFFF1C493AC90047ADBE /* Build configuration list for PBXNativeTarget "Amazon Preis MonitorUITests" */;
+			buildPhases = (
+				65CAEFEC1C493AC90047ADBE /* Sources */,
+				65CAEFED1C493AC90047ADBE /* Frameworks */,
+				65CAEFEE1C493AC90047ADBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CAEFF21C493AC90047ADBE /* PBXTargetDependency */,
+			);
+			name = "Amazon Preis MonitorUITests";
+			productName = "Amazon Preis MonitorUITests";
+			productReference = 65CAEFF01C493AC90047ADBE /* Amazon Preis MonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65CAEFCC1C493AC90047ADBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Müllenborn";
+				TargetAttributes = {
+					65CAEFD31C493AC90047ADBE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					65CAEFE41C493AC90047ADBE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 65CAEFD31C493AC90047ADBE;
+					};
+					65CAEFEF1C493AC90047ADBE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 65CAEFD31C493AC90047ADBE;
+					};
+				};
+			};
+			buildConfigurationList = 65CAEFCF1C493AC90047ADBE /* Build configuration list for PBXProject "Amazon Preis Monitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65CAEFCB1C493AC90047ADBE;
+			productRefGroup = 65CAEFD51C493AC90047ADBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65CAEFD31C493AC90047ADBE /* Amazon Preis Monitor */,
+				65CAEFE41C493AC90047ADBE /* Amazon Preis MonitorTests */,
+				65CAEFEF1C493AC90047ADBE /* Amazon Preis MonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65CAEFD21C493AC90047ADBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CAEFDC1C493AC90047ADBE /* Assets.xcassets in Resources */,
+				65CAEFDF1C493AC90047ADBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CAEFE31C493AC90047ADBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CAEFEE1C493AC90047ADBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65CAEFD01C493AC90047ADBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CAEFDA1C493AC90047ADBE /* ViewController.swift in Sources */,
+				65CAEFD81C493AC90047ADBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CAEFE11C493AC90047ADBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CAEFEA1C493AC90047ADBE /* Amazon_Preis_MonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CAEFEC1C493AC90047ADBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CAEFF51C493AC90047ADBE /* Amazon_Preis_MonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65CAEFE71C493AC90047ADBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CAEFD31C493AC90047ADBE /* Amazon Preis Monitor */;
+			targetProxy = 65CAEFE61C493AC90047ADBE /* PBXContainerItemProxy */;
+		};
+		65CAEFF21C493AC90047ADBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CAEFD31C493AC90047ADBE /* Amazon Preis Monitor */;
+			targetProxy = 65CAEFF11C493AC90047ADBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65CAEFDD1C493AC90047ADBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65CAEFDE1C493AC90047ADBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65CAEFF71C493AC90047ADBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65CAEFF81C493AC90047ADBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65CAEFFA1C493AC90047ADBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Amazon Preis Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damuellen.Amazon-Preis-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65CAEFFB1C493AC90047ADBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Amazon Preis Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damuellen.Amazon-Preis-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65CAEFFD1C493AC90047ADBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Amazon Preis MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damuellen.Amazon-Preis-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazon Preis Monitor.app/Contents/MacOS/Amazon Preis Monitor";
+			};
+			name = Debug;
+		};
+		65CAEFFE1C493AC90047ADBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Amazon Preis MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damuellen.Amazon-Preis-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazon Preis Monitor.app/Contents/MacOS/Amazon Preis Monitor";
+			};
+			name = Release;
+		};
+		65CAF0001C493AC90047ADBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Amazon Preis MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damuellen.Amazon-Preis-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Amazon Preis Monitor";
+			};
+			name = Debug;
+		};
+		65CAF0011C493AC90047ADBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Amazon Preis MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "damuellen.Amazon-Preis-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Amazon Preis Monitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65CAEFCF1C493AC90047ADBE /* Build configuration list for PBXProject "Amazon Preis Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CAEFF71C493AC90047ADBE /* Debug */,
+				65CAEFF81C493AC90047ADBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65CAEFF91C493AC90047ADBE /* Build configuration list for PBXNativeTarget "Amazon Preis Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CAEFFA1C493AC90047ADBE /* Debug */,
+				65CAEFFB1C493AC90047ADBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65CAEFFC1C493AC90047ADBE /* Build configuration list for PBXNativeTarget "Amazon Preis MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CAEFFD1C493AC90047ADBE /* Debug */,
+				65CAEFFE1C493AC90047ADBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65CAEFFF1C493AC90047ADBE /* Build configuration list for PBXNativeTarget "Amazon Preis MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CAF0001C493AC90047ADBE /* Debug */,
+				65CAF0011C493AC90047ADBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65CAEFCC1C493AC90047ADBE /* Project object */;
+}
